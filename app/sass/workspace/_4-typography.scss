@@ -1,0 +1,66 @@
+// fonts
+
+$mm: "Montserrat-Medium";
+$mbl: "Merriweather-Black";
+$mb: "Merriweather-Bold";
+$ml: "Merriweather-Light";
+$mpr:"MyriadPro-Regular";
+$osb:"OpenSans-Bold";
+$osi:"OpenSans-Italic";
+$osr:"OpenSans-Regular";
+
+
+
+// Headline
+.h1{
+    font-size: $f48;
+    color: $white;
+    line-height: 6.4rem;
+    font-family: $mpr;
+}
+.h2{
+    font-size: $f36;
+    color: $black;
+}
+.h3{
+    font-size: $f24;
+    color: $black;
+}
+.h4{
+    font-size: $f14;
+    color: $green;
+    font-family: $mpr;
+    text-transform: uppercase;
+}
+.h4-gray{
+    font-size: $f14;
+    color: $lightGray;
+}
+
+// Paragraphs
+
+.p-gray{
+    font-size: $f16;
+    color: $gray;
+}
+.p-black{
+    font-size: $f18;
+    color: $black;
+}
+.quote{
+    font-size: $f22;
+    color: $gray;
+}
+
+// links
+.link-text{
+    font-size: $f18;
+    color: $green;
+    text-decoration: underline;
+}
+.link-mail{
+    font-size: $f14;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: $green;
+}

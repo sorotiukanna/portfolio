@@ -1,0 +1,51 @@
+//main
+
+.first{
+    background-image: url('../img/fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 18.5rem;
+    padding-bottom: 14rem;
+    text-align: center;
+}
+.first{
+    position: relative;
+}
+
+.first::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $black;
+    opacity: 0.7;
+}
+
+.first-content{
+    z-index: 50;
+}
+
+.h4-place{
+    margin-bottom: 4rem;
+}
+
+.h1-place{
+    margin-bottom: 15rem;
+}
+.second {
+    background-color: $white;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.line {
+    height: 1rem;
+    width: 100%;
+    background-color: $green;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}

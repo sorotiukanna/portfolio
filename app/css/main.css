@@ -1,0 +1,324 @@
+/*  Reset */
+/*
+test
+*/
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative; }
+
+html {
+  overflow: auto !important; }
+
+body {
+  zoom: 1; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  letter-spacing: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  border: none; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium/Montserrat-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../fontsMontserrat-Medium/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Medium/Montserrat-Medium.svg#svgMontserrat-Medium") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Merriweather-Black";
+  src: url("../fonts/Merriweather-Black/Merriweather-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Merriweather-Black/Merriweather-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather-Black/Merriweather-Black.woff2") format("woff2"), url("../fonts/Merriweather-Black/Merriweather-Black.woff") format("woff"), url("../fonts/Merriweather-Black/Merriweather-Black.ttf") format("truetype"), url("../fonts/Merriweather-Black/Merriweather-Black.svg#svgMerriweather-Black") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Merriweather-Bold";
+  src: url("../fonts/Merriweather-Bold/Merriweather-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Merriweather-Bold/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather-Bold/Merriweather-Bold.woff2") format("woff2"), url("../fonts/Merriweather-Bold/Merriweather-Bold.woff") format("woff"), url("../fonts/Merriweather-Bold/Merriweather-Bold.ttf") format("truetype"), url("../fonts/Merriweather-Bold/Merriweather-Bold.svg#svgMerriweather-Bold") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Merriweather-Light";
+  src: url("../fonts/Merriweather-Light/Merriweather-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Merriweather-Light/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather-Light/Merriweather-Light.woff2") format("woff2"), url("../fonts/Merriweather-Light/Merriweather-Light.woff") format("woff"), url("../fonts/Merriweather-Light/Merriweather-Light.ttf") format("truetype"), url("../fonts/Merriweather-Light/Merriweather-Light.svg#svgMerriweather-Light") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#svgMyriadPro-Regular") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg#svgOpenSans-Bold") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("../fonts/OpenSans-Italic/OpenSans-Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/OpenSans-Italic/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.woff2") format("woff2"), url("../fonts/OpenSans-Italic/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf") format("truetype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.svg#svgOpenSans-Italic") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular/OpenSans-Regular.svg#svgOpenSans-Regular") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+
+.h1 {
+  font-size: 4.8rem;
+  color: #ffffff;
+  line-height: 6.4rem;
+  font-family: "MyriadPro-Regular"; }
+
+.h2 {
+  font-size: 3.6rem;
+  color: #241e18; }
+
+.h3 {
+  font-size: 2.4rem;
+  color: #241e18; }
+
+.h4 {
+  font-size: 1.4rem;
+  color: #3a9c61;
+  font-family: "MyriadPro-Regular";
+  text-transform: uppercase; }
+
+.h4-gray {
+  font-size: 1.4rem;
+  color: #a6a49d; }
+
+.p-gray {
+  font-size: 1.6rem;
+  color: #65615d; }
+
+.p-black {
+  font-size: 1.8rem;
+  color: #241e18; }
+
+.quote {
+  font-size: 2.2rem;
+  color: #65615d; }
+
+.link-text {
+  font-size: 1.8rem;
+  color: #3a9c61;
+  text-decoration: underline; }
+
+.link-mail {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #3a9c61; }
+
+.main-one {
+  width: 100%;
+  max-width: 81.43%;
+  margin: 0 auto;
+  right: 0;
+  left: 0; }
+
+.outline {
+  outline: 1px solid red; }
+
+.btn {
+  display: inline-block;
+  padding-right: 4.5rem;
+  padding-left: 4.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-border-radius: 4.5rem;
+          border-radius: 4.5rem;
+  text-transform: uppercase;
+  font-family: "OpenSans-Bold";
+  font-size: 1.4rem; }
+
+.btn-white {
+  border: 0.1rem solid white;
+  color: #ffffff;
+  margin-right: 1.5rem; }
+
+.btn-orange {
+  border: 0.1rem solid transparent;
+  color: #ffffff;
+  background-color: #e98e19;
+  margin-left: 1.5rem; }
+
+.main-header {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100; }
+
+.logo {
+  font-size: 2.4rem;
+  color: #ffffff;
+  font-family: "Merriweather-Black"; }
+
+.main-menu {
+  display: inline-block; }
+
+.menu-item > li {
+  display: inline-block;
+  margin-right: 5rem; }
+
+.menu-item > li:last-child {
+  margin-right: 0; }
+
+.menu-item > li > a {
+  opacity: 0.3;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  position: relative; }
+
+.menu-item > li > a:after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 0.2rem;
+  background-color: #3a9c61;
+  top: 2rem;
+  width: 100%;
+  -webkit-transition: linear 0.5s;
+  -o-transition: linear 0.5s;
+  transition: linear 0.5s;
+  opacity: 0; }
+
+.menu-item > li > a:hover {
+  opacity: 1; }
+
+.menu-item > li > a:hover:after {
+  -webkit-transition: linear 0.5s;
+  -o-transition: linear 0.5s;
+  transition: linear 0.5s;
+  width: 100%;
+  opacity: 1; }
+
+.first {
+  background-image: url("../img/fon.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-top: 18.5rem;
+  padding-bottom: 14rem;
+  text-align: center; }
+
+.first {
+  position: relative; }
+
+.first::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #241e18;
+  opacity: 0.7; }
+
+.first-content {
+  z-index: 50; }
+
+.h4-place {
+  margin-bottom: 4rem; }
+
+.h1-place {
+  margin-bottom: 15rem; }
+
+.second {
+  background-color: #ffffff;
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.line {
+  height: 1rem;
+  width: 100%;
+  background-color: #3a9c61;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0; }
+
+/*# sourceMappingURL=../maps/main.css.map */
