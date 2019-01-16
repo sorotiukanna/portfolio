@@ -38,14 +38,123 @@
 }
 .second {
     background-color: $white;
-    padding-top: 10rem;
     padding-bottom: 10rem;
 }
 .line {
     height: 1rem;
     width: 100%;
     background-color: $green;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 0;
+}
+.second-place {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.h2{
+    font-family: $mb;
+}
+.h4{
+    font-family: $osb;
+    text-transform: uppercase;
+}
+.h2-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: 1.45rem;
+}
+.h4-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 1.45rem;
+    padding-bottom: 5rem;
+}
+.cards-place {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.card-one-place{
+    width: 31.579%;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.circle-place {
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    position: relative;
+    z-index: 1;
+}
+.triangle-top-left {
+    position: absolute;
+    top: 43.03%;
+    left: 43.93%;
+    z-index: 2;
+}
+.triangle-bottom-left {
+    position: absolute;
+    top: 29.69%;
+    left: 30.60%;
+    z-index: 3;
+}
+.triangle-top-middle {
+    position: absolute;
+    top: 35.37%;
+    left: 37.27%;
+    z-index: 2;
+}
+.triangle-bottom-middle {
+    position: absolute;
+    top: 37.57%;
+    left: 35.45%;
+    z-index: 3;
+}
+.triangle-bottom-right {
+    position: absolute;
+    top: 37.57%;
+    left: 31.31%;
+    z-index: 2;
+}
+.triangle-bottom-center {
+    position: absolute;
+    top: 37.57%;
+    left: 45.57%;
+    z-index: 3;
+}
+.h3-place {
+    padding-top: 5rem;
+}
+.h3 {
+    font-family: $mb;
+}
+.p-gray {
+    font-family: $osr;
+    text-align: center;
+}
+.p-gray-place {
+    padding-top: 5.5rem;
+    padding-bottom: 4.8rem;
+}
+.third {
+    background-color: $grayFon;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.column-photo-place {
+    width: 20.7%;
+}
+.photo-round {
+    width: 13.5rem;
+	height: 13.5rem;
+	background-color: $grayFon;
+    border-radius: 10rem;
 }
